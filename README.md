@@ -73,6 +73,8 @@ cp ../env.example .env
 
 ### Usage
 
+#### Terminal Interface (CLI)
+
 Run Dexter in interactive mode:
 ```bash
 bun start
@@ -82,6 +84,40 @@ Or with watch mode for development:
 ```bash
 bun dev
 ```
+
+#### Web Interface
+
+Dexter now includes a modern web interface! To use it:
+
+1. Navigate to the web directory:
+```bash
+cd web
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+bun install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+# or
+bun dev
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+The web interface provides:
+- 🎨 Modern, responsive chat interface
+- 📊 Real-time task progress visualization
+- 🤖 Multi-model support (GPT-4.1, Claude Sonnet 4.5, Gemini 3)
+- 💬 Conversation history and session management
+- 📱 Mobile-friendly design
+
+See the [web README](./web/README.md) for more details.
 
 ### Example Queries
 
